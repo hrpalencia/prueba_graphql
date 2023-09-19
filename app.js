@@ -32,7 +32,7 @@ async function start() {
   app.use('/graphiql', graphiqlExpress({ endpointURL: '/graphql' }))*/
 start()
   server.listen(PORT, () => {
-    console.log("Server Running on port 80", PORT)
+    console.log("Server Running on port 8080", PORT)
   })
 
 //}
