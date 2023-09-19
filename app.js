@@ -14,6 +14,7 @@ const server = http.createServer(app)
 
 async function start() {
 
+  // pruebas
 
   const apolloServer = new ApolloServer ({
     typeDefs,
